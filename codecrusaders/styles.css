@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #b0e0e6;
+    overflow: hidden; 
+}
+
+header {
+    color: #b0e0e6;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav{
+    height: 120px;
+    width: 100%;
+    background-image: url(a\ logo\ for\ CodeCrusaders\ Software\ Solutions\ with\ a\ black\ background\ 1.png);
+    background-size: 90px;
+    background-repeat: no-repeat;
+    background-position:70px 30px;
+}
+    
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 15px ;
+    margin-right: 23px;
+ 
+}
+nav ul{
+    position: absolute;
+    right: 100px;
+    top: 8%;
+}
+nav ul li a{
+    text-decoration: none;
+    height:10;
+    width: 10;
+    color: rgb(214, 243, 255);
+    font-size: 17px;
+}
+nav ul li::after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0%;
+    margin: auto;
+    background: #55b4ce;
+    transition: 0.7s;
+}
+nav ul li:hover::after{
+    width: 100%;
+}
+
+
+main {
+    padding: 20px;
+    text-align: center;
+    background-image: url(_343fe759-99a9-4e77-959f-b60f24234c96.jpeg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    height: 900px;
+}
+
+footer {
+    color: #b0e0e6;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+main h1{
+    position: absolute;
+    left: 8%;
+    top:39% ;
+    font-size: 70px;
+    color: #8debe4;
+    background-image: -webkit-linear-gradient(90deg, #ffffff 45%, #3ff9f3 43%, #13dcf2 45%); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.ww h2{
+    position: absolute;
+    top: 54%;
+    left: 8%;
+    color: #ffffff;
+}
+main h3  {
+    position: absolute;
+    right: 15%;
+    top: 42%;
+}
+main p{
+    position: absolute;
+    right: 15%;
+    top: 49%;
+}
+main p span{
+    font-size: 20px;
+}
